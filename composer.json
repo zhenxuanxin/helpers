@@ -1,0 +1,21 @@
+{
+    "name": "zhenxxin/helpers",
+    "description": "A series of artisan utility functions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xuanxin Zhen",
+            "email": "xuanxin.zhen@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "~5.8.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
