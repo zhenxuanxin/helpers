@@ -33,7 +33,7 @@ if (!function_exists('cny')) {
      * @param string $suffix 后缀
      * @return float|string
      */
-    function cny($amount, $float = false, $prefix = '', $suffix = '')
+    function cny($amount, $float = false, $prefix = '￥', $suffix = '元')
     {
         $value = number_format($amount / 100.0, 2);
         if ($float) {
